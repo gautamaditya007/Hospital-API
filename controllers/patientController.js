@@ -67,6 +67,8 @@ module.exports.createReport = async function(req,res)
             status:req.body.status,
             date:new Date()
         })
+
+        user.reports.push(report)
         
         
 
