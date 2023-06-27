@@ -1,4 +1,4 @@
-This project is a Hospital API for the doctors of a Hospital that has been allocated by the
+This project is a Hospital an API for the doctors of a Hospital which has been allocated by the
 govt for testing and quarantine + well being of COVID-19 patients
 
 Installation
@@ -16,19 +16,26 @@ Open the application in your postman app by visiting the following URL: http://l
 Features:
 
 - There can be 2 types of Users
- Doctors
- Patients
+
+1. Doctors
+
+2. Patients
+
 - Doctors can log in
 - Each time a patient visits, the doctor will follow 2 steps
- Register the patient in the app (using phone number, if the patient already exists, just
+ 
+1. Register the patient in the app (using phone number, if the patient already exists, just
 return the patient info in the API)
- After the checkup, create a Report
+
+2. After the checkup, create a Report
 - Patient Report will have the following fields
- Created by doctor
- Status 
- Can be either of: [Negative, Travelled-Quarantine, Symptoms-Quarantine,
+
+1. Created by doctor
+
+2. Status - Can be either of: [Negative, Travelled-Quarantine, Symptoms-Quarantine,
 Positive-Admit]
- Date
+
+3. Date
 
 
 Routes:
